@@ -1,0 +1,81 @@
+PODS:
+  - Alamofire (5.0.4)
+  - EmptyDataSet-Swift (5.0.0)
+  - HandyJSON (5.0.1)
+  - HMSegmentedControl (1.5.5)
+  - IQKeyboardManagerSwift (6.5.5)
+  - Kingfisher (5.13.2):
+    - Kingfisher/Core (= 5.13.2)
+  - Kingfisher/Core (5.13.2)
+  - LLCycleScrollView (1.6.0):
+    - Kingfisher
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.3.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - SnapKit (5.0.1)
+  - SnapKitExtend (1.0.7):
+    - SnapKit
+  - Then (2.6.0)
+  - UINavigation-SXFixSpace (1.2.4)
+
+DEPENDENCIES:
+  - EmptyDataSet-Swift
+  - HandyJSON
+  - HMSegmentedControl
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - LLCycleScrollView
+  - MBProgressHUD
+  - MJRefresh
+  - Moya
+  - Reusable
+  - SnapKitExtend
+  - Then
+  - UINavigation-SXFixSpace
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Alamofire
+    - EmptyDataSet-Swift
+    - HandyJSON
+    - HMSegmentedControl
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - LLCycleScrollView
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - Reusable
+    - SnapKit
+    - SnapKitExtend
+    - Then
+    - UINavigation-SXFixSpace
+
+SPEC CHECKSUMS:
+  Alamofire: 0fe5fd24b4298dc377a6550da7d5f1b30e286fcb
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  LLCycleScrollView: a08f666671f9fd1a205df9defebc3c217d59abc8
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SnapKitExtend: 00ee4db6d1f80bee01a1e75745f2a6ae695ba662
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+  UINavigation-SXFixSpace: 10f223253ebff2ceefa26694e23b7694269763c4
+
+PODFILE CHECKSUM: fadf4aa14f5240f92c0f4615c3ca61c773334d77
+
+COCOAPODS: 1.9.1
