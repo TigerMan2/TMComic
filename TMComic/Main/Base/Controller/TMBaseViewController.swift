@@ -26,8 +26,6 @@ class TMBaseViewController: UIViewController {
         
         setupSubviews()
         registerCell()
-        initValue()
-        loadData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -36,9 +34,6 @@ class TMBaseViewController: UIViewController {
     
     func setupSubviews() {}
     func registerCell() {}
-    func initValue() {}
-    func loadData() {}
-    func bindViewData() {}
     func configNavigationBar() {
         guard let nav = navigationController else { return }
         if nav.visibleViewController == self {

@@ -20,7 +20,10 @@ class TMTabBarController: UITabBarController {
         
         ///首页
         let home = TMHomeController(titles: ["推荐","VIP","订阅","排行"],
-                                    vcs: [TMBaseViewController(),TMBaseViewController(),TMBaseViewController(),TMBaseViewController()],
+                                    vcs: [TMRecommendController(),
+                                          TMVIPController(),
+                                          TMSubscribeController(),
+                                          TMRankController()],
                                     pageStyle: .navgationBarSegment)
         addChildViewController(home, title: "首页", image: UIImage(named: "tab_home"), selectedImage: UIImage(named: "tab_home_S"))
         

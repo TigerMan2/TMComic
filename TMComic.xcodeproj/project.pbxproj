@@ -10,6 +10,17 @@
 		43E54681C85474A73C2A2A42 /* Pods_TMComicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936146E65CEF4026E06AD03D /* Pods_TMComicTests.framework */; };
 		4C9B237EFCA2D632942646C8 /* Pods_TMComic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C504A25B2091449C755D8CF2 /* Pods_TMComic.framework */; };
 		50EA4A8F30084F58F59EFD07 /* Pods_TMComic_TMComicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CE1FE3148A78D82BA0C7DD /* Pods_TMComic_TMComicUITests.framework */; };
+		AA13E132247219B900E6FBA5 /* TMBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13E131247219B900E6FBA5 /* TMBaseCollectionReusableView.swift */; };
+		AA13E13424721A2500E6FBA5 /* TMComicHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13E13324721A2500E6FBA5 /* TMComicHeaderView.swift */; };
+		AA13E1362472248000E6FBA5 /* TMComicFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13E1352472248000E6FBA5 /* TMComicFooterView.swift */; };
+		AA13E138247229EF00E6FBA5 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13E137247229EF00E6FBA5 /* ArrayExtension.swift */; };
+		AA13E13A247259BF00E6FBA5 /* TMBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13E139247259BF00E6FBA5 /* TMBoardCell.swift */; };
+		AA13E13D24725C1A00E6FBA5 /* TMRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13E13C24725C1A00E6FBA5 /* TMRefresh.swift */; };
+		AAE8A13D246D13D00043908F /* TMAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A13C246D13D00043908F /* TMAPI.swift */; };
+		AAE8A140246D223D0043908F /* TMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A13F246D223D0043908F /* TMModel.swift */; };
+		AAF5641124711BCD008EA57B /* TMBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5641024711BCD008EA57B /* TMBaseCollectionViewCell.swift */; };
+		AAF5641324712329008EA57B /* TMComicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5641224712329008EA57B /* TMComicCell.swift */; };
+		AAF5641524713575008EA57B /* TMCollectionViewSectionBackgroundLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5641424713575008EA57B /* TMCollectionViewSectionBackgroundLayout.swift */; };
 		AAF76040246B818E002F6F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7603F246B818E002F6F1D /* AppDelegate.swift */; };
 		AAF76044246B818E002F6F1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF76043246B818E002F6F1D /* ViewController.swift */; };
 		AAF76047246B818E002F6F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF76045246B818E002F6F1D /* Main.storyboard */; };
@@ -27,6 +38,10 @@
 		AAF7608F246BCE1C002F6F1D /* TMCateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7608E246BCE1C002F6F1D /* TMCateController.swift */; };
 		AAF76091246BCE32002F6F1D /* TMBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF76090246BCE32002F6F1D /* TMBookController.swift */; };
 		AAF76093246BCE42002F6F1D /* TMMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF76092246BCE42002F6F1D /* TMMineController.swift */; };
+		AAF76095246BE1BC002F6F1D /* TMRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF76094246BE1BC002F6F1D /* TMRecommendController.swift */; };
+		AAF76097246BE1C8002F6F1D /* TMVIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF76096246BE1C8002F6F1D /* TMVIPController.swift */; };
+		AAF76099246BE1E9002F6F1D /* TMSubscribeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF76098246BE1E9002F6F1D /* TMSubscribeController.swift */; };
+		AAF7609B246BE1F5002F6F1D /* TMRankController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7609A246BE1F5002F6F1D /* TMRankController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,17 @@
 		2C3CB72A477245500937A899 /* Pods-TMComicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMComicTests.debug.xcconfig"; path = "Target Support Files/Pods-TMComicTests/Pods-TMComicTests.debug.xcconfig"; sourceTree = "<group>"; };
 		79D9D192D9DA7154904206C1 /* Pods-TMComic-TMComicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMComic-TMComicUITests.release.xcconfig"; path = "Target Support Files/Pods-TMComic-TMComicUITests/Pods-TMComic-TMComicUITests.release.xcconfig"; sourceTree = "<group>"; };
 		936146E65CEF4026E06AD03D /* Pods_TMComicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMComicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA13E131247219B900E6FBA5 /* TMBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		AA13E13324721A2500E6FBA5 /* TMComicHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMComicHeaderView.swift; sourceTree = "<group>"; };
+		AA13E1352472248000E6FBA5 /* TMComicFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMComicFooterView.swift; sourceTree = "<group>"; };
+		AA13E137247229EF00E6FBA5 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		AA13E139247259BF00E6FBA5 /* TMBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMBoardCell.swift; sourceTree = "<group>"; };
+		AA13E13C24725C1A00E6FBA5 /* TMRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMRefresh.swift; sourceTree = "<group>"; };
+		AAE8A13C246D13D00043908F /* TMAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMAPI.swift; sourceTree = "<group>"; };
+		AAE8A13F246D223D0043908F /* TMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMModel.swift; sourceTree = "<group>"; };
+		AAF5641024711BCD008EA57B /* TMBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		AAF5641224712329008EA57B /* TMComicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMComicCell.swift; sourceTree = "<group>"; };
+		AAF5641424713575008EA57B /* TMCollectionViewSectionBackgroundLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMCollectionViewSectionBackgroundLayout.swift; sourceTree = "<group>"; };
 		AAF7603C246B818E002F6F1D /* TMComic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMComic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF7603F246B818E002F6F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF76043246B818E002F6F1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +100,10 @@
 		AAF7608E246BCE1C002F6F1D /* TMCateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMCateController.swift; sourceTree = "<group>"; };
 		AAF76090246BCE32002F6F1D /* TMBookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMBookController.swift; sourceTree = "<group>"; };
 		AAF76092246BCE42002F6F1D /* TMMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMMineController.swift; sourceTree = "<group>"; };
+		AAF76094246BE1BC002F6F1D /* TMRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMRecommendController.swift; sourceTree = "<group>"; };
+		AAF76096246BE1C8002F6F1D /* TMVIPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMVIPController.swift; sourceTree = "<group>"; };
+		AAF76098246BE1E9002F6F1D /* TMSubscribeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMSubscribeController.swift; sourceTree = "<group>"; };
+		AAF7609A246BE1F5002F6F1D /* TMRankController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMRankController.swift; sourceTree = "<group>"; };
 		B7841FB4B15139E2E1125B4F /* Pods-TMComic-TMComicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMComic-TMComicUITests.debug.xcconfig"; path = "Target Support Files/Pods-TMComic-TMComicUITests/Pods-TMComic-TMComicUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C504A25B2091449C755D8CF2 /* Pods_TMComic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMComic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C856A0F76EF07FDB25C87B63 /* Pods-TMComic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMComic.release.xcconfig"; path = "Target Support Files/Pods-TMComic/Pods-TMComic.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +152,50 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AA0BFC23246E6060006B4D91 /* UICollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5641424713575008EA57B /* TMCollectionViewSectionBackgroundLayout.swift */,
+			);
+			path = UICollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		AA13E13B24725BF300E6FBA5 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				AA13E13C24725C1A00E6FBA5 /* TMRefresh.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		AAE8A13E246D22210043908F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE8A13F246D223D0043908F /* TMModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAF5640224711566008EA57B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5641024711BCD008EA57B /* TMBaseCollectionViewCell.swift */,
+				AA13E131247219B900E6FBA5 /* TMBaseCollectionReusableView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AAF5640324711579008EA57B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7607E246B91A8002F6F1D /* TMBaseViewController.swift */,
+				AAF76080246B91C4002F6F1D /* TMPageViewController.swift */,
+				AAF76082246B923C002F6F1D /* TMNavigationController.swift */,
+				AAF76084246B9251002F6F1D /* TMTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		AAF76033246B818E002F6F1D = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +224,7 @@
 				AAF76089246B93EE002F6F1D /* Extension */,
 				AAF76086246B9282002F6F1D /* Common */,
 				AAF7606F246B90C9002F6F1D /* Main */,
+				AAE8A13E246D22210043908F /* Model */,
 				AAF76074246B912B002F6F1D /* API */,
 				AAF76072246B90FA002F6F1D /* Home */,
 				AAF76073246B90FD002F6F1D /* Cate */,
@@ -230,6 +305,7 @@
 		AAF76074246B912B002F6F1D /* API */ = {
 			isa = PBXGroup;
 			children = (
+				AAE8A13C246D13D00043908F /* TMAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -238,6 +314,10 @@
 			isa = PBXGroup;
 			children = (
 				AAF7608C246BCE06002F6F1D /* TMHomeController.swift */,
+				AAF76094246BE1BC002F6F1D /* TMRecommendController.swift */,
+				AAF76096246BE1C8002F6F1D /* TMVIPController.swift */,
+				AAF76098246BE1E9002F6F1D /* TMSubscribeController.swift */,
+				AAF7609A246BE1F5002F6F1D /* TMRankController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -245,6 +325,10 @@
 		AAF76076246B913A002F6F1D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AAF5641224712329008EA57B /* TMComicCell.swift */,
+				AA13E13324721A2500E6FBA5 /* TMComicHeaderView.swift */,
+				AA13E1352472248000E6FBA5 /* TMComicFooterView.swift */,
+				AA13E139247259BF00E6FBA5 /* TMBoardCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,10 +381,10 @@
 		AAF7607D246B9185002F6F1D /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				AAF7607E246B91A8002F6F1D /* TMBaseViewController.swift */,
-				AAF76080246B91C4002F6F1D /* TMPageViewController.swift */,
-				AAF76082246B923C002F6F1D /* TMNavigationController.swift */,
-				AAF76084246B9251002F6F1D /* TMTabBarController.swift */,
+				AA13E13B24725BF300E6FBA5 /* Refresh */,
+				AA0BFC23246E6060006B4D91 /* UICollectionViewLayout */,
+				AAF5640224711566008EA57B /* Cell */,
+				AAF5640324711579008EA57B /* Controller */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -317,6 +401,7 @@
 			isa = PBXGroup;
 			children = (
 				AAF7608A246B9437002F6F1D /* UIColorHex.swift */,
+				AA13E137247229EF00E6FBA5 /* ArrayExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -570,18 +655,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA13E138247229EF00E6FBA5 /* ArrayExtension.swift in Sources */,
+				AAF5641124711BCD008EA57B /* TMBaseCollectionViewCell.swift in Sources */,
 				AAF76085246B9251002F6F1D /* TMTabBarController.swift in Sources */,
 				AAF76083246B923C002F6F1D /* TMNavigationController.swift in Sources */,
+				AAE8A140246D223D0043908F /* TMModel.swift in Sources */,
+				AAF7609B246BE1F5002F6F1D /* TMRankController.swift in Sources */,
+				AA13E13D24725C1A00E6FBA5 /* TMRefresh.swift in Sources */,
+				AA13E132247219B900E6FBA5 /* TMBaseCollectionReusableView.swift in Sources */,
+				AAF76097246BE1C8002F6F1D /* TMVIPController.swift in Sources */,
 				AAF7608D246BCE06002F6F1D /* TMHomeController.swift in Sources */,
 				AAF76093246BCE42002F6F1D /* TMMineController.swift in Sources */,
+				AA13E13424721A2500E6FBA5 /* TMComicHeaderView.swift in Sources */,
 				AAF76044246B818E002F6F1D /* ViewController.swift in Sources */,
 				AAF76040246B818E002F6F1D /* AppDelegate.swift in Sources */,
+				AAF5641324712329008EA57B /* TMComicCell.swift in Sources */,
+				AAF76099246BE1E9002F6F1D /* TMSubscribeController.swift in Sources */,
+				AA13E13A247259BF00E6FBA5 /* TMBoardCell.swift in Sources */,
+				AAE8A13D246D13D00043908F /* TMAPI.swift in Sources */,
+				AAF5641524713575008EA57B /* TMCollectionViewSectionBackgroundLayout.swift in Sources */,
+				AA13E1362472248000E6FBA5 /* TMComicFooterView.swift in Sources */,
 				AAF7608F246BCE1C002F6F1D /* TMCateController.swift in Sources */,
 				AAF76081246B91C4002F6F1D /* TMPageViewController.swift in Sources */,
 				AAF7608B246B9437002F6F1D /* UIColorHex.swift in Sources */,
 				AAF76088246B9291002F6F1D /* TMConst.swift in Sources */,
 				AAF76091246BCE32002F6F1D /* TMBookController.swift in Sources */,
 				AAF7607F246B91A8002F6F1D /* TMBaseViewController.swift in Sources */,
+				AAF76095246BE1BC002F6F1D /* TMRecommendController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
