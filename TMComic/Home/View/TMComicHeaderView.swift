@@ -34,7 +34,7 @@ class TMComicHeaderView: TMBaseCollectionReusableView {
         return label
     }()
     
-    private var moreButton: UIButton = {
+    lazy var moreButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setTitle("•••", for: .normal)
         button.setTitleColor(UIColor.lightGray, for: .normal)

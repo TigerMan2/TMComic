@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+import SnapKit
+import Kingfisher
 
 //MRAK: 屏幕宽高
 let kScreenWidth = UIScreen.main.bounds.size.width
@@ -45,5 +47,15 @@ private func _topVC(_ vc: UIViewController?) -> UIViewController? {
         return _topVC((vc as? UITabBarController)?.selectedViewController)
     } else {
         return vc
+    }
+}
+
+//MRAK: SnapKit
+extension ConstraintView {
+    var usnp: ConstraintBasicAttributesDSL {
+        if #available(iOS 11, *) {
+            return self.safeAreaLayoutGuide.snp
+        }
+        return self.snp
     }
 }
